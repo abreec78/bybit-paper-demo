@@ -18,7 +18,7 @@ try {
 }
 
 async function marketPage(end) {
-    const url = new URL('https://api.bybit.com/v5/market/kline');
+    const url = new URL('https://api.bytick.com/v5/market/kline');
     url.search = new URLSearchParams({
         category: 'linear', symbol, interval: '15', limit: '1000', end,
     });
